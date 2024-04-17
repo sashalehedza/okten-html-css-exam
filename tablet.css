@@ -1,0 +1,49 @@
+@media screen and (min-width: 560px) and (max-width: 1023px) {
+  /* Patricia */
+
+  /* Vlad */
+
+  /* Yulia */
+
+  /* Sasha */
+  .items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .items-container .item {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+    background: #0d0402;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      'banner categories'
+      'information follow-us';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

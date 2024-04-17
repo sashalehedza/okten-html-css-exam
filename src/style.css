@@ -99,7 +99,49 @@ h4 {
   background: #fff;
 }
 
-/* Sasha */
+/*----------------------------------Main Contacts--------------------------------*/
+.main-follow {
+  width: 100vw;
+  height: 64vh;
+  margin: 50px 0;
+  color: white;
+  background-image: url("../assets/yulia/FollowUs.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  /*height: 100%;*/
+}
+.main-follow--block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-follow--block>h2 {
+  text-align: center;
+}
+.main-follow_block>a {
+  color: #FF4B32;
+  text-decoration: none;
+}
+.main-follow--contacts {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-follow--social_links a {
+  padding: 10px;
+}
+.main-follow--contacts img {
+  vertical-align: sub;
+}
+
+/*---------------------------------- Sasha ---------------------------------*/
 
 .update-news-container {
   height: 100%;

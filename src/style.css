@@ -44,6 +44,60 @@ h4 {
 /* Vlad */
 
 /* Yulia */
+/*----------------------------------Main Our Gallery-------------------------------*/
+.main-gallery {
+  height: 100vh;
+}
+.main-gallery--container {
+  width: 80vw;
+  height: 60%;
+  margin: 0  auto;
+  padding: 50px;
+  /*padding-top: 100px;*/
+  /*margin-top: 150px;*/
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-gallery--description {
+  width: 50% ;
+  margin-bottom: 40px ;
+  text-align: center;
+}
+.main-gallery--description>h2 {
+  /*margin-bottom: 20px;*/
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+.main-gallery--description>p {
+  padding: 20px;
+}
+.main-gallery--block {
+  display: grid;
+}
+.main-gallery--block-photos {
+  width: 50%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+}
+.main-gallery button {
+  color: #FF4B32;
+  border: none;
+  background: unset;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main-gallery button:hover {
+  color: rgba(103, 63, 52, 0.77);
+  border: none;
+  background: #fff;
+}
 
 /* Sasha */
 

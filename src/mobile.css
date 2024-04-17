@@ -20,7 +20,7 @@
     width: 100%;
     border-radius: 20px;
     background: #fff;
-    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
   }

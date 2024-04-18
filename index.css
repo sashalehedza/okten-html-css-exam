@@ -25,7 +25,7 @@
 .title {
   color: #000;
   text-align: center;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 43px;
   font-style: normal;
   font-weight: 600;
@@ -35,7 +35,7 @@
 .subtitle {
   color: #000;
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -96,7 +96,7 @@
 
 .item h1 {
   color: #000;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -105,7 +105,7 @@
 
 .item p {
   color: #000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -114,7 +114,7 @@
 
 .item a {
   color: #ff4b32;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -157,7 +157,7 @@
 
 .footer-container div h1 {
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +189,7 @@
 
 .footer-container div p {
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -200,7 +200,7 @@
 .footer-copyright {
   color: #fff;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

@@ -164,9 +164,17 @@ nav img {
     width: 506px;
 }
 
-.best-offer-items {
+.best-offer-container {
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-offer-items {
+    height: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -328,20 +336,9 @@ nav img {
   color: #fff;
 }
 
-/* Sasha */
-.update-news {
-    height: 100vh;
-    width: 100%;
-}
-
-.footer {
-    height: 410px;
-    width: 100%;
-}
 
 /*---------------------------------- Sasha ---------------------------------*/
 .update-news-container {
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;

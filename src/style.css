@@ -131,23 +131,22 @@ nav img {
 .best-offer {
     width: 100%;
     height: 737px;
-    /*border: 2px solid gray;*/
     display: flex;
     flex-direction: column;
     /*margin-bottom: 139px;*/
     margin-top: 140px;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 
 }
 
 .best-offer-description {
     width: 590px;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
     height: 134px;
     margin-left: 145px;
 }
 
-.best-offer-text-h1 {
+.best-offer-info-title {
     color: #000;
     font-family: "Josefin Sans", sans-serif;
     font-size: 43px;
@@ -158,7 +157,7 @@ nav img {
     width: 590px;
 }
 
-.best-offer-text-p1 {
+.best-offer-info-item-description {
     color: #000;
 
     /* Body / Base */
@@ -172,15 +171,12 @@ nav img {
 }
 
 
-.best-offer-box-1-2 {
+.best-offer-items-1 {
     width: 1149px;
     height: 542px;
     margin-left: 147px;
-    /*border: 2px solid gray;*/
     display: flex;
     margin-top: 60px;
-    /*justify-content: center;*/
-    /*align-items: center;*/
 
 }
 
@@ -188,19 +184,16 @@ nav img {
     width: 310px;
     height: 542px;
     flex-shrink: 0;
-    /*border: 2px solid gray;*/
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
-    /*margin-right: 147px;*/
 }
 
 .best-offer-block-photos-2 {
     width: 306px;
     height: 542px;
     flex-shrink: 0;
-    /*border: 2px solid gray;*/
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -212,7 +205,6 @@ nav img {
     width: 319px;
     height: 536px;
     margin-left: 118px;
-    /*border: 2px solid gray;*/
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -228,10 +220,9 @@ nav img {
     width: 319px;
     height: 251px;
     flex-shrink: 0;
-    /*border: 2px solid gray;*/
 }
 
-.best-offer-1-2-text-1 {
+.item-price-1 {
     color: #0C0D0C;
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
@@ -242,7 +233,7 @@ nav img {
 
 }
 
-.best-offer-1-2-text-2 {
+.item-name-1 {
     color: #000;
 
     /* Heading / Base */
@@ -261,7 +252,7 @@ nav img {
 /*    border: 2px solid gray;*/
 /*}*/
 
-.best-offer-1-2-text-3 {
+.item-description-1 {
   color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -272,15 +263,7 @@ nav img {
   width: 257px;
 }
 
-/*.best-offer-box-1-2-1-1 {*/
-
-/*}*/
-
-/*.best-offer-box-1-2-1-2 {*/
-
-/*}*/
-
-.best-offer-1-2-text-4 {
+.item-price-2 {
   color: #0C0D0C;
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
@@ -292,7 +275,7 @@ nav img {
 
 }
 
-.best-offer-1-2-text-5 {
+.item-name-2 {
   color: #000;
 
   /* Heading / Base */
@@ -305,7 +288,7 @@ nav img {
   width: 298px;
 }
 
-.best-offer-1-2-text-6 {
+.item-description-2 {
   color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;

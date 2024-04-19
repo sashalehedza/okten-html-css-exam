@@ -130,13 +130,14 @@ nav img {
 
 /* Vlad */
 .best-offer {
-    width: 100%;
+    width: 80vw;
     height: 737px;
     display: flex;
     flex-direction: column;
     /*margin-bottom: 139px;*/
     margin-top: 140px;
-    /*border: 2px solid gray;*/
+    border: 2px solid gray;
+    margin-left: 153px;
 
 }
 
@@ -175,7 +176,7 @@ nav img {
 .best-offer-items-1 {
     width: 1149px;
     height: 542px;
-    margin-left: 147px;
+    /*margin-left: 147px;*/
     display: flex;
     margin-top: 60px;
 
@@ -305,6 +306,7 @@ nav img {
   width: 100vw;
   height: 100vh;
   display: contents;
+    border: 2px solid gray;
 }
 .main-gallery--container {
   width: 80vw;
@@ -318,6 +320,7 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+    border: 2px solid gray;
 }
 .main-gallery--description {
   width: 60%;

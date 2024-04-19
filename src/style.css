@@ -250,9 +250,10 @@ nav img {
     line-height: 130%; /* 41.6px */
     margin-top: 10px;
 }
+
 /*---------------------------Vlad-------Best Offer-------------------------------*/
 .best-offer {
-  height: 100vh;
+    height: 100vh;
   width: 100%;
 }
 

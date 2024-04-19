@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   line-height: 29px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .container {
   width: 100vw;
@@ -309,7 +310,7 @@ nav img {
   width: 80vw;
   /*height: 60%;*/
   margin: 0  auto;
-  padding: 50px;
+  padding-bottom: 50px;
   /*padding-top: 100px;*/
   /*margin-top: 150px;*/
   /*text-align: center;*/
@@ -357,6 +358,7 @@ nav img {
   color: rgba(103, 63, 52, 0.77);
   border: none;
   background: #fff;
+  cursor: wait;
 }
 
 /*--------------------------Yulia--------Main Contacts--------------------------------*/
@@ -413,18 +415,15 @@ nav img {
   color: #fff;
 }
 
-/* Sasha */
-.update-news {
-    height: 100vh;
-    width: 100%;
-}
-
+/*---------------------------------- Sasha ---------------------------------*/
+/*.update-news {*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*}*/
 .footer {
     height: 410px;
     width: 100%;
 }
-
-/*---------------------------------- Sasha ---------------------------------*/
 .update-news-container {
   height: 100%;
   width: 100%;
@@ -434,7 +433,6 @@ nav img {
   align-items: center;
   padding: 50px;
 }
-
 .title {
   color: #000;
   text-align: center;
@@ -445,7 +443,6 @@ nav img {
   line-height: 130%;
   margin-bottom: 20px;
 }
-
 .subtitle {
   color: #000;
   text-align: center;
@@ -456,7 +453,6 @@ nav img {
   line-height: 160%;
   margin-bottom: 30px;
 }
-
 .items-container {
   width: 100%;
   display: flex;
@@ -465,7 +461,6 @@ nav img {
   align-items: center;
   gap: 30px;
 }
-
 .items-container .item {
   height: 500px;
   width: 300px;
@@ -475,31 +470,26 @@ nav img {
   display: flex;
   flex-direction: column;
 }
-
 .item-img {
   height: 300px;
   width: 100%;
   border-radius: 20px 20px 0 0;
 }
-
 .item-img-1 {
   background-image: url('../assets/sasha/item-1.jpeg');
   background-size: cover;
   background-position: center;
 }
-
 .item-img-2 {
   background-image: url('../assets/sasha/item-2.jpeg');
   background-size: cover;
   background-position: center;
 }
-
 .item-img-3 {
   background-image: url('../assets/sasha/item-3.jpeg');
   background-size: cover;
   background-position: center;
 }
-
 .item-info {
   flex-grow: 1;
   display: flex;
@@ -508,7 +498,6 @@ nav img {
   border-radius: 0 0 20px 20px;
   padding: 20px;
 }
-
 .item h1 {
   color: #000;
   /*font-family: 'Josefin Sans';*/
@@ -517,7 +506,6 @@ nav img {
   font-weight: 600;
   line-height: 130%;
 }
-
 .item p {
   color: #000;
   /*font-family: 'Open Sans';*/
@@ -526,7 +514,6 @@ nav img {
   font-weight: 400;
   line-height: 160%;
 }
-
 .item a {
   color: #ff4b32;
   /*font-family: 'Open Sans';*/
@@ -536,7 +523,6 @@ nav img {
   line-height: 160%;
   text-decoration: none;
 }
-
 .footer {
   width: 100%;
   background: #0d0402;
@@ -546,7 +532,6 @@ nav img {
   flex-direction: column;
   gap: 70px;
 }
-
 .footer-container {
   height: 100%;
   width: 100%;
@@ -556,7 +541,6 @@ nav img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
-
 .footer-banner {
   grid-area: banner;
 }
@@ -569,7 +553,6 @@ nav img {
 .footer-follow-us {
   grid-area: follow-us;
 }
-
 .footer-container div h1 {
   color: #fff;
   /*font-family: 'Open Sans';*/
@@ -578,7 +561,6 @@ nav img {
   font-weight: 400;
   line-height: 150%;
 }
-
 .footer-banner .footer-centered-title {
   display: flex;
   justify-content: start;

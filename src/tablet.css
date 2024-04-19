@@ -1,6 +1,25 @@
 @media screen and (min-width: 560px) and (max-width: 1023px) {
   /*--------------------------- Patricia-------------------------- */
-
+  header {
+    background-image: url("../assets/Patricia/Rectangle60.png");
+  }
+  .banner-info {
+    display: contents;
+  }
+  .banner-info h1 {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+  }
+  .banner-info button {
+    display: block;
+    margin: 50px auto;
+  }
+   .banner-info p {
+     text-align: center;
+     width: 50%;
+     margin: 0 auto;
+   }
   /*---------------------------- Vlad -----------------------------*/
 
   /*--------------------------- Yulia -----------------------------*/

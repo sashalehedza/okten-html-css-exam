@@ -134,22 +134,26 @@ nav img {
     height: 737px;
     display: flex;
     flex-direction: column;
-    /*margin-bottom: 139px;*/
     margin-top: 140px;
-    border: 2px solid gray;
-    /*margin-left: 153px;*/
     justify-content: center;
     align-items: center;
+    margin-bottom: 140px;
 
 
 }
-
+.best-offer-all{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 .best-offer-description {
-    /*width: 500;*/
-    /*border: 2px solid gray;*/
+    width: 1149px;
     height: 134px;
-    /*margin-left: 155px;*/
-    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
 }
 
 .best-offer-info-title {
@@ -176,14 +180,12 @@ nav img {
     width: 506px;
 }
 
-
 .best-offer-items-1 {
     width: 1149px;
     height: 542px;
-    /*margin-left: 147px;*/
     display: flex;
     margin-top: 60px;
-
+    justify-content: space-between;
 }
 
 .best-offer-block-photos-1 {
@@ -194,7 +196,6 @@ nav img {
     flex-direction: column;
     align-items: start;
     text-align: start;
-    border: 2px solid gray;
 }
 
 .best-offer-block-photos-2 {
@@ -205,19 +206,15 @@ nav img {
     flex-direction: column;
     align-items: start;
     text-align: start;
-    margin-left: 92px;
-    border: 2px solid gray;
 }
 
 .best-offer-block-photos-3 {
     width: 319px;
     height: 536px;
-    margin-left: 118px;
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
-    border: 2px solid gray;
 }
 
 .best-offer-1-img {
@@ -255,11 +252,6 @@ nav img {
 }
 
 /*---------------------------Vlad-------Best Offer-------------------------------*/
-/*.best-offer {*/
-/*    !*height: 100vh;*!*/
-/*   width: 100%;*/
-/*    border: 2px solid gray;*/
-/*}*/
 
 .item-description-1 {
   color: #000;
@@ -313,7 +305,6 @@ nav img {
   width: 100vw;
   height: 100vh;
   display: contents;
-    border: 2px solid gray;
 }
 .main-gallery--container {
   width: 80vw;
@@ -327,7 +318,6 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    border: 2px solid gray;
 }
 .main-gallery--description {
   width: 60%;

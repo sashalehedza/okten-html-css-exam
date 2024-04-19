@@ -6,7 +6,6 @@
     height: 100%;
     margin-bottom: 500px;
   }
-
   .best-offer-box-1-1 {
     width: 100%;
     height: 100%;
@@ -19,16 +18,12 @@
     width: 100%;
     text-align: center;
   }
-
   .best-offer-box-1-2{
     width: 100%;
-
     height: 1600px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-
-
 }
   .best-offer-box-1-2-1{
     width: 100%;
@@ -52,7 +47,7 @@
   }
 
 
-  /* Yulia */
+  /*------- Yulia -------*/
 body {
   font-size: 16px;
 }
@@ -85,13 +80,11 @@ body {
     /*margin: 0 auto;*/
   }
 
-  /* Sasha */
+  /*-------- Sasha -------- */
   .update-news {
     height: auto;
     width: 100%;
   }
-
-
   .items-container {
     width: 100%;
     display: flex;
@@ -100,7 +93,6 @@ body {
     align-items: center;
     gap: 20px;
   }
-
   .items-container .item {
     height: 400px;
     width: 100%;
@@ -110,7 +102,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-
   .footer {
     width: 100%;
     background: #0d0402;
@@ -121,7 +112,6 @@ body {
     gap: 30px;
     height: auto;
   }
-
   .footer-container {
     height: 100%;
     width: 100%;

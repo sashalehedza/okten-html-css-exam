@@ -44,7 +44,6 @@
     align-items: center;
     gap: 30px;
   }
-     /*???*/
   .items-container .item {
     height: 300px;
     width: 100%;
@@ -54,12 +53,10 @@
     display: flex;
     flex-direction: column;
   }
-
   .update-news {
     height: auto;
     width: 100%;
   }
-
   .footer {
     width: 100%;
     background: #0d0402;
@@ -70,7 +67,6 @@
     gap: 30px;
     height: auto;
   }
-
   .footer-container {
     height: 100%;
     width: 100%;

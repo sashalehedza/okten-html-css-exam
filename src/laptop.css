@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   /* Patricia */
 
   .header {
@@ -7,12 +7,19 @@
   }
 
   /* Vlad */
-
   .best-offer {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-  }
 
+  }
+  .best-offer-box-1-1 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .best-offer-box-1-2{
+    width: 100%;
+    margin-left: 0;
+  }
   /* Yulia */
 
   .main-gallery {

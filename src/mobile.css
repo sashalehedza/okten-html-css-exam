@@ -1,57 +1,46 @@
 @media screen and (max-width: 559px) {
   /* Patricia */
+
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
   /* Vlad */
   .best-offer {
+    height: auto;
     width: 100%;
-    height: 100%;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
   }
-  .best-offer-box-1-1 {
+
+  .best-offer-items {
+    height: auto;
     width: 100%;
-    height: 100%;
-  }
-  .best-offer-1-1-text-1 {
-    width: 100%;
-    text-align: center;
-  }
-  .best-offer-1-1-text-2 {
-    width: 100%;
-    text-align: center;
-  }
-  .best-offer-box-1-2{
-    width: 100%;
-    height: 1600px;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
-}
-  .best-offer-box-1-2-1{
-    width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .best-offer-box-1-2-2 {
-    margin-left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .best-offer-box-1-2-3 {
-    margin-left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 50px;
   }
 
+  .best-offer-items .item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+  .best-offer-info-item-description {
+    width: 100%;
+  }
 
   /*------- Yulia -------*/
-body {
-  font-size: 16px;
-}
-  .main-gallery{
+  body {
+    font-size: 16px;
+  }
+  .main-gallery {
     width: 100%;
     height: auto;
   }
@@ -60,7 +49,7 @@ body {
     margin-bottom: 20px;
     line-height: normal;
   }
-  .main-gallery--description>p {
+  .main-gallery--description > p {
     display: none;
   }
   .main-gallery--block-photos {
@@ -71,7 +60,7 @@ body {
     grid-gap: 10px;
     /*margin: 0 auto;*/
   }
-  .main-gallery--block-photos>img {
+  .main-gallery--block-photos > img {
     width: 40vw;
     height: 100%;
     /*width: 45vw;*/

@@ -1,7 +1,38 @@
 @media screen and (min-width: 560px) and (max-width: 1023px) {
   /*--------------------------- Patricia-------------------------- */
-
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
   /*---------------------------- Vlad -----------------------------*/
+
+  .best-offer {
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .best-offer-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .best-offer-items .item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+  .best-offer-info-item-description {
+    width: 100%;
+  }
 
   /*--------------------------- Yulia -----------------------------*/
   body {
@@ -17,17 +48,17 @@
     width: 100%;
     margin-bottom: 20px;
   }
-  .main-gallery--description>p {
+  .main-gallery--description > p {
     display: inline-block;
   }
   .main-gallery--block-photos {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  .main-gallery--block-photos>img {
+  .main-gallery--block-photos > img {
     width: 40vw;
     height: 100%;
     object-fit: cover;

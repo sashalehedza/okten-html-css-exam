@@ -1,7 +1,56 @@
 @media screen and (max-width: 559px) {
   /* Patricia */
-
   /* Vlad */
+  .best-offer {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 500px;
+  }
+
+  .best-offer-box-1-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .best-offer-1-1-text-1 {
+    width: 100%;
+    text-align: center;
+  }
+  .best-offer-1-1-text-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .best-offer-box-1-2{
+    width: 100%;
+
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+
+}
+  .best-offer-box-1-2-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .best-offer-box-1-2-2 {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .best-offer-box-1-2-3 {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   /* Yulia */
 body {

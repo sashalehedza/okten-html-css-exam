@@ -4,6 +4,37 @@
   /* Vlad */
 
   /* Yulia */
+body {
+  font-size: 16px;
+}
+  .main-gallery{
+    width: 100%;
+    height: auto;
+  }
+  .main-gallery--description {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: normal;
+  }
+  .main-gallery--description>p {
+    display: none;
+  }
+  .main-gallery--block-photos {
+    /*width: 90%;*/
+    /*height: 90%;*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*margin: 0 auto;*/
+  }
+  .main-gallery--block-photos>img {
+    width: 40vw;
+    height: 100%;
+    /*width: 45vw;*/
+    object-fit: cover;
+    object-position: center;
+    /*margin: 0 auto;*/
+  }
 
   /* Sasha */
   .items-container {

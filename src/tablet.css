@@ -1,11 +1,41 @@
 @media screen and (min-width: 560px) and (max-width: 1023px) {
-  /* Patricia */
+  /*--------------------------- Patricia-------------------------- */
 
-  /* Vlad */
+  /*---------------------------- Vlad -----------------------------*/
 
-  /* Yulia */
+  /*--------------------------- Yulia -----------------------------*/
+  body {
+    font-size: 16px;
+  }
+  .main-gallery {
+    margin: 50px auto;
+    padding: 50px 0;
+    width: 100vw;
+    height: auto;
+  }
+  .main-gallery--description {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main-gallery--description>p {
+    display: inline-block;
+  }
+  .main-gallery--block-photos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+  }
+  .main-gallery--block-photos>img {
+    width: 40vw;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+  }
 
-  /* Sasha */
+  /*------------------------------ Sasha ----------------------------*/
   .items-container {
     width: 100%;
     display: flex;
@@ -14,7 +44,7 @@
     align-items: center;
     gap: 30px;
   }
-
+     /*???*/
   .items-container .item {
     height: 300px;
     width: 100%;

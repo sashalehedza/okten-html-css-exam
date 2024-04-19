@@ -128,26 +128,30 @@ nav img {
   padding: 5px 15px;
 }
 
-/* Vlad */
+/*-------------------------- Vlad ------------------------ */
 .best-offer {
-    width: 80vw;
-    height: 737px;
+    /*width: 80vw;*/
+    width: 100vw;
+    height: 72vw;
+    /*height: 737px;*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
     /*margin-bottom: 139px;*/
-    margin-top: 140px;
-    border: 2px solid gray;
-    margin-left: 153px;
-
+    padding-top: 140px;
+    /*border: 2px solid gray;*/
+    /*margin-left: 153px;*/
 }
-
+.best-offer-container {
+    width: 80vw;
+    margin: 0 auto;
+}
 .best-offer-description {
     width: 590px;
     /*border: 2px solid gray;*/
     height: 134px;
-    margin-left: 145px;
+    /*margin-left: 145px;*/
 }
-
 .best-offer-info-title {
     color: #000;
     font-family: "Josefin Sans", sans-serif;
@@ -158,10 +162,8 @@ nav img {
     letter-spacing: 6px;
     width: 590px;
 }
-
 .best-offer-info-item-description {
     color: #000;
-
     /* Body / Base */
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px;
@@ -171,17 +173,16 @@ nav img {
     margin-top: 20px;
     width: 506px;
 }
-
-
 .best-offer-items-1 {
-    width: 1149px;
-    height: 542px;
+    /*width: 1149px;*/
+    /*height: 542px;*/
     /*margin-left: 147px;*/
+    width: 100%;
     display: flex;
     margin-top: 60px;
-
+    justify-content: space-between;
+    /*border: 1px solid;*/
 }
-
 .best-offer-block-photos-1 {
     width: 310px;
     height: 542px;
@@ -191,7 +192,6 @@ nav img {
     align-items: start;
     text-align: start;
 }
-
 .best-offer-block-photos-2 {
     width: 306px;
     height: 542px;
@@ -200,30 +200,26 @@ nav img {
     flex-direction: column;
     align-items: start;
     text-align: start;
-    margin-left: 92px;
+    /*margin-left: 92px;*/
 }
-
 .best-offer-block-photos-3 {
     width: 319px;
     height: 536px;
-    margin-left: 118px;
+    /*margin-left: 118px;*/
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
 }
-
 .best-offer-1-img {
     width: 300px;
     height: 265px;
 }
-
 .best-offer-2-img {
     width: 319px;
     height: 251px;
     flex-shrink: 0;
 }
-
 .item-price-1 {
     color: #0C0D0C;
     font-family: "Josefin Sans", sans-serif;
@@ -232,9 +228,7 @@ nav img {
     font-weight: 700;
     line-height: 150%; /* 36px */
     margin-top: 35px;
-
 }
-
 .item-name-1 {
     color: #000;
 
@@ -246,14 +240,6 @@ nav img {
     line-height: 130%; /* 41.6px */
     margin-top: 10px;
 }
-
-/*---------------------------Vlad-------Best Offer-------------------------------*/
-/*.best-offer {*/
-/*    !*height: 100vh;*!*/
-/*   width: 100%;*/
-/*    border: 2px solid gray;*/
-/*}*/
-
 .item-description-1 {
   color: #000;
   font-family: "Open Sans", sans-serif;
@@ -264,7 +250,6 @@ nav img {
   margin-top: 15px;
   width: 257px;
 }
-
 .item-price-2 {
   color: #0C0D0C;
   font-family: "Josefin Sans", sans-serif;
@@ -274,12 +259,9 @@ nav img {
   line-height: 150%; /* 36px */
   width: 59px;
   margin-top: 42px;
-
 }
-
 .item-name-2 {
   color: #000;
-
   /* Heading / Base */
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
@@ -289,7 +271,6 @@ nav img {
   margin-bottom: 18px;
   width: 298px;
 }
-
 .item-description-2 {
   color: #000;
   font-family: "Open Sans", sans-serif;
@@ -306,7 +287,7 @@ nav img {
   width: 100vw;
   height: 100vh;
   display: contents;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 }
 .main-gallery--container {
   width: 80vw;
@@ -320,7 +301,7 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 }
 .main-gallery--description {
   width: 60%;
@@ -571,7 +552,6 @@ nav img {
   flex-direction: row;
   gap: 5px;
 }
-
 #footer-banner-title {
   color: #ff4b32;
   font-size: 24px;
@@ -580,13 +560,11 @@ nav img {
   line-height: 130%;
   margin-top: 20px;
 }
-
 .footer-container div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .footer-container div p {
   color: #fff;
   /*font-family: 'Open Sans';*/
@@ -596,7 +574,6 @@ nav img {
   line-height: 150%;
   list-style-type: none;
 }
-
 .footer-copyright {
   color: #fff;
   text-align: center;

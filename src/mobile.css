@@ -1,5 +1,24 @@
 @media screen and (max-width: 559px) {
   /* Patricia */
+  header {
+    background-image: url("../assets/Patricia/Rectangle60.png");
+  }
+  .banner-info {
+    display: contents;
+  }
+  .banner-info h1 {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+  }
+  .banner-info p {
+    display: none;
+  }
+  .banner-info button {
+    display: block;
+    margin: 50px auto;
+  }
+
   /* Vlad */
   .best-offer {
     width: 100%;
@@ -46,11 +65,10 @@
     align-items: center;
   }
 
-
   /*------- Yulia -------*/
-body {
-  font-size: 16px;
-}
+  body {
+    font-size: 16px;
+  }
   .main-gallery{
     width: 100%;
     height: auto;

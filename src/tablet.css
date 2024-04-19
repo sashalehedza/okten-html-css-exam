@@ -55,6 +55,11 @@
     flex-direction: column;
   }
 
+  .update-news {
+    height: auto;
+    width: 100%;
+  }
+
   .footer {
     width: 100%;
     background: #0d0402;

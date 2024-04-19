@@ -86,6 +86,12 @@ body {
   }
 
   /* Sasha */
+  .update-news {
+    height: auto;
+    width: 100%;
+  }
+
+
   .items-container {
     width: 100%;
     display: flex;
